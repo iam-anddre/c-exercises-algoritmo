@@ -12,6 +12,11 @@ int main() {
         }
         printf("Deseja continuar? (s/n): ");
         scanf(" %c", &resposta);
+        if (resposta != 's' && resposta != 'S' && resposta != 'n' && resposta != 'N') {
+            printf("Resposta inválida. Por favor, digite 's' para sim ou 'n' para não.\n");
+        }else if (resposta == 'n' || resposta == 'N') {
+            printf("Programa encerrado.\n");
+        }
 
     } while (resposta == 's' || resposta == 'S');
     return 0;

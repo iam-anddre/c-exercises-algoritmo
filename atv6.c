@@ -7,7 +7,7 @@ int main(){
         printf("=========MENU=========\n");
         printf("1 - verificar numero par ou impar\n");
         printf("2 - verifica se eh positivo ou negativo\n");
-        printf("3 - calcular o quadrado do numero\n");
+        printf("3 - calcular o quadrado do numero\n# ");
         printf("4 - sair\n");
         printf("Escolha uma opçao: ");
         scanf("%d", &opcao);
